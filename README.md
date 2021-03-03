@@ -4,22 +4,15 @@
 
 Desafio Automação de Testes Utilizando  Python e Behave
 
-#Comandos necessários para instalação e execução do teste
-pip install selenium
-pip install behave
-pip install nose
-pip install allure-behave
-
-Para executar o Teste, Acesse:
-behave --tags=@cadastro
-
-
 #Comandos necessários para instalação e execução
 pip install selenium
 pip install behave
 pip install nose
 pip install allure-behave
 
+
+Para executar o Teste, Acesse:
+behave --tags=@cadastro
 
 #Instalação do  relatorio allure 
 npm install -g allure-commandline --save-dev
